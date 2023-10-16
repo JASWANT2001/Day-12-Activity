@@ -6,9 +6,10 @@
     <title>Document</title>
 <style>
     .parent{
-    margin: 10px; 
-    border:2px solid black; 
-    height: 500px;
+        background-color: rgb(188, 217, 242);
+    margin: 20px; 
+    border:1px solid black; 
+    height: 750px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -16,8 +17,8 @@
     }
     .child1{
         margin: 20px; 
-        border: 2px solid black;
-        height: 500px;
+        border: 1px solid black;
+        height: 400px;
         width: 1300px;
         display: flex;
         flex-direction: row;
@@ -28,13 +29,15 @@
 </head>
 <body>
     <div class="parent">  
-    <div class="child"><h2>Event 1</h2></div>
+    <div class="child" style="display: flex;justify-content: center;" ><h1><i>Event 1</i></h1></div>
 
-    <div>Number of available seats : 23</div>
+    <div><h3><font style="font-style: italic;">Number of available seats : 23</font></h3></div>
 
-    <div class="child1">
-      <div class="child2" style="margin: 20px; border: 2px solid black; height: 250px;width: 250px; display: flex; justify-content: center;align-items: center;"> image</div>
-      <div class="child3">
+    <div class="child1" >
+        <img src="https://media.istockphoto.com/id/1295114854/photo/empty-red-armchairs-of-a-theater-ready-for-a-show.jpg?s=612x612&w=0&k=20&c=0rDtwzMmLbqe_8GuGw2dpjkD0MsXGywJmdmg0jDbMxQ=" style= "margin: 20px; border: 1px solid black; height: 250px;width: 250px; display: flex; justify-content: center;align-items: center; ">
+
+      
+      <div class="child3" style="font-family: 'Courier New', Courier, monospace;">
         <form action="POST">
             <label for="Name ">Name:</label>
             <input type ="Name"><br><br>
@@ -58,9 +61,21 @@
        <button>submit</button>
        <button>cancel</button>
       </div>
+   
     </div>
+    </div>
+
 <div>
+
+
 </div>
+       
+    
     </div>
+
+
+   
+
+    
 </body>
 </html>
